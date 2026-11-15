@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PesonaMalang - Wisata Kota Malang</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -16,10 +16,15 @@
             <ul class="nav-menu">
                 <li><a href="#beranda">Beranda</a></li>
                 <li><a href="#destinasi">Destinasi</a></li>
-                <li><a href="#booking">Booking</a></li>
+                <li><a href="#testimoni">Rekaman</a></li>
                 <li><a href="#kontak">Hubungi Kami</a></li>
             </ul>
-            <a href="#booking" class="btn-pesan">Pesan Sekarang</a>
+            <div class="nav-icons">
+                <span class="icon">🔍</span>
+                <span class="icon">👤</span>
+                <span class="icon">🛒</span>
+            </div>
+            <a href="#booking" class="btn-pesan">Pesan Dini</a>
         </div>
     </nav>
 
@@ -27,7 +32,7 @@
     <section id="beranda" class="hero">
         <div class="hero-container">
             <div class="hero-text">
-                <h1>Pesona Wisata Kota Malang</h1>
+                <h1>Pesona Wisata<br>Kota Malang</h1>
                 <p>Nikmati keindahan kota sejuk dengan perpaduan wisata alam, sejarah, dan budaya yang memukau. Dari kampung warna-warni hingga pantai eksotis, kami menghadirkan pengalaman liburan tak terlupakan langsung untuk Anda. Jelajahi pesona Malang dengan pemandangan hijau, udara segar, dan keramahan warga lokal. Pesan sekarang dan mulai petualanganmu!</p>
                 <a href="#booking" class="btn-primary">pesan sekarang</a>
             </div>
@@ -96,14 +101,14 @@
 
     <!-- BOOK A TRIP -->
     <section id="booking" class="booking">
-        <h2 class="section-title">Book A Trip</h2>
+        <h2 class="section-title-italic">Book A Trip</h2>
         <div class="booking-container">
             <form class="booking-form">
-                <input type="text" placeholder="Nama Lengkap" required>
-                <input type="tel" placeholder="Nomor WhatsApp" required>
-                <input type="email" placeholder="Alamat Email" required>
+                <input type="text" placeholder="Your Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="email" placeholder="Your Email" required>
                 <select required>
-                    <option value="">Jumlah Peserta</option>
+                    <option value="">How many persons?</option>
                     <option value="1">1 Orang</option>
                     <option value="2">2 Orang</option>
                     <option value="3-5">3-5 Orang</option>
@@ -128,18 +133,18 @@
     </section>
 
     <!-- TESTIMONI -->
-    <section class="testimoni">
-        <h2 class="section-title">What Says Our Customers</h2>
+    <section id="testimoni" class="testimoni">
+        <h2 class="section-title-italic">What Says Our Customers</h2>
         <div class="testimoni-grid">
             <div class="testimoni-card">
                 <p>"Kampung Jodipan benar-benar di luar ekspektasi! Warnanya cerah, warganya ramah, dan banyak spot foto keren. Sangat rekomended untuk dikunjungi!"</p>
                 <h4>Sinta Rahayu</h4>
-                <span>Wisatawan dari Surabaya</span>
+                <span>magna aliqua</span>
             </div>
             <div class="testimoni-card">
                 <p>"Malam di Alun-Alun Tugu sangat hidup. Makan bakso sambil menikmati suasana kota tua yang indah. Malang memang The Best!"</p>
                 <h4>Budi Santoso</h4>
-                <span>Wisatawan dari Jakarta</span>
+                <span>magna aliqua</span>
             </div>
         </div>
     </section>
@@ -158,18 +163,9 @@
                 <p>Wisata SMK Negeri 2 Mojokerto</p>
                 <div class="social-media">
                     <!-- GANTI: Logo sosial media (ukuran: 32x32px) -->
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="images/facebook.png" alt="Facebook">
-                    </a>
-                    <a href="https://instagram.com" target="_blank">
-                        <img src="images/instagram.png" alt="Instagram">
-                    </a>
-                    <a href="https://twitter.com" target="_blank">
-                        <img src="images/twitter.png" alt="Twitter">
-                    </a>
-                    <a href="https://wa.me/6281234567890" target="_blank">
-                        <img src="images/whatsapp.png" alt="WhatsApp">
-                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-btn">Facebook</a>
+                    <a href="https://instagram.com" target="_blank" class="social-btn">Instagram</a>
+                    <a href="https://twitter.com" target="_blank" class="social-btn">Twitter</a>
                 </div>
             </div>
             <div class="footer-section">
